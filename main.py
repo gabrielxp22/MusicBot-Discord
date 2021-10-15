@@ -18,4 +18,4 @@ for filename in os.listdir('./cogs'):
     if filename.endswith('.py'):
         client.load_extension(f'cogs.{filename[:-3]}')
 
-client.run(os.getenv("SECRET_KEY"))
+client.run("ODk3OTg1MTI5ODMyNjY5MjM1.YWdn0g.9qfTpUfVLwwRdu_msqBv1ZsluuI")
